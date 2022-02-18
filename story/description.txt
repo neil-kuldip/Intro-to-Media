@@ -1,0 +1,14 @@
+Author: Neil Kuldip
+MEDP 150 - Interactive Story
+
+Description:
+    You as the player are situated in your car, driving down a road at night. Maybe not such a wise decision given that you drank a 
+    little too much and wind up crashing the car into a nearby tree. The decisions to save yourself starts here, with a demon on the 
+    loose nearby where you crashed. There are 4 different endings, but who knows if any of them would be satisfying enough. 
+
+Intro Prompt:
+    "Hey, how's the drive? You seem to have drank a little too much this time. Keep your eyes on the road ok?" [Insert Ok button here]
+
+Considerations:
+    using <embed> to have some background music (royalty free)
+    

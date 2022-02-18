@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="creator" lang="en" content="Neil Kuldip" /> 
+    <meta name="subject" lang="en" content="MEDP 150" /> 
+    <meta name="description" lang="en" content="All Eyes on Me (Interactive Story created by Neil Kuldip)" /> 
+    <meta name="keywords" content="media studies, design, portfolio, Neil Kuldip" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>All Eyes on Me</title>
+  </head>
+
+  <body>
+    <style>
+
+      .box {
+        position: absolute;
+      }
+
+     body {
+        background-image: url('images/game_intro.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+
+      h4 {
+        background-color: #334553;
+        border: none;
+        color: white;
+        padding:  20px 20px;
+        text-align: center;
+        text-decoration: none;
+        display:  inline-block;
+        font-size: 30px;
+        margin-left: 160px;
+        margin-right: 60px;
+      }
+
+      #button1 {
+        background-color: #334553;
+        border: none;
+        color: white;
+        padding:  10px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        margin-left: 600px;
+      }
+
+      #button2 {
+        background-color: #334553;
+        border: none;
+        color: white;
+        padding:  10px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        margin-left: 550px;
+        margin-top: 20px;
+      }
+
+      #button1 , #button2 {
+        display: inline-block;
+      }
+
+      #button1:hover {
+        background-color: #c5d8e1;
+        color: black;
+      }
+
+      #button2:hover {
+        background-color: #c5d8e1;
+        color: black;
+      }
+    </style>
+    <audio controls autoplay loop style="display: none;">  <source src="music/awakward_meeting.mp3" type="audio/mpeg"></audio>
+    <div id="box">
+    <h1 style="color: white"> All Eyes on Me</h1>
+    <h3 style="color: white"> Developed by: Neil Kuldip</h3>
+ 
+
+    <h4> Hey, it seems that you drank a little too much. Drive carefully now ok? </h4>
+    <a href="crash.html" id="button1"> Enter </a>
+    <br />
+    <a href= "../index.html" id="button2"> Return Home </a>
+    </div>
+  </body>

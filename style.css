@@ -1,0 +1,86 @@
+
+body {
+    background-color: #00303F;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Avant-Garde;
+    src: url("avant_garde/ITCAvantGardeStdBk.otf");
+}
+
+.diamond-title {
+    background-color: #CAE4DB;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: 0.4s;
+}
+
+.diamond-title:hover {
+    width: 670px;
+    height: 670px;
+}
+
+.diamond-title #hidden_p {
+    font-family: "Avant-Garde";
+    size: 30px;
+    color: black;
+    transform: rotate(-45deg) translate(-28%, 60%);
+    font-size: 10 px;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transform: 0;
+}
+
+.diamond-title:hover #hidden_p {
+    opacity: 1;
+    transition: 4.7s;
+}
+
+.diamond-title h3 {
+    font-family: "Avant-Garde";
+    size: 30px;
+    color: black;
+    transform: rotate(-45deg) translate(-15%, 260%);
+    position: absolute;
+    text-align: center;
+}
+
+.diamond-title #hidden_h4 {
+    font-family: "Avant-Garde";
+    size: 30px;
+    color: black;
+    transform: rotate(-45deg) translate(-18%, 300%);
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s
+}
+
+.diamond-title:hover #hidden_h4 {
+    opacity: 1;
+    transition: 3s;
+}
+
+.diamond-title #hidden_p2 {
+    font-family: "Avant-Garde";
+    size: 30px;
+    color: black;
+    transform: rotate(-45deg) translate(-2%, 100%);
+    font-size: 9 px;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transform: 0;
+}
+
+.diamond-title:hover #hidden_p2 {
+    opacity: 1;
+    transition: 4s;
+}
