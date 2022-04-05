@@ -2,10 +2,10 @@
 ## Personal Website for Media in a Digital Age I Course (MEDP 150)
 
 ### Check out the website here:
-[Intro to Media](https://intro-to-media.herokuapp.com/)
+[Intro to Media](https://neil-kuldip.github.io/Intro-to-Media/)
 
 ### If you want to play my horror game, "All Eyes on Me", click here:
-[All Eyes on Me](https://intro-to-media.herokuapp.com/story/index.html)
+[All Eyes on Me](https://neil-kuldip.github.io/Intro-to-Media/story/)
 
 ### Contents
 * **Homework #1 - Haiku Poem**
